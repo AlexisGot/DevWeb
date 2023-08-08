@@ -1,0 +1,15 @@
+
+main section:first-of-type{
+    background-color: green;
+}
+header img{
+    width: 600px;
+    height: 800px;
+    border-radius: 10px;
+}
+section:nth-of-type(2) p:first-of-type a[href="#"]{
+color: orange;
+}
+section:nth-of-type(2):hover p:nth-of-type(2){
+    background-color: red;
+}

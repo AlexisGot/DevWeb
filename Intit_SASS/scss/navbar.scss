@@ -1,0 +1,28 @@
+$couleurPrincipale: rgb(168, 12, 12);
+
+header {
+    width: 100%;
+    background-color: $couleurPrincipale;
+        ul {
+            display: flex;
+            list-style: none;
+            a {
+                @extend %style;
+
+                &:hover{
+                    color: lighten($couleurPrincipale, 50%);
+                }
+            }
+        }
+    }
+
+
+    %style{
+        border: none;
+        background-color: orangered;
+        border-radius: 5px;
+        color: black;
+    }
+    button{
+        background-color: $couleurPrincipale;
+        }
