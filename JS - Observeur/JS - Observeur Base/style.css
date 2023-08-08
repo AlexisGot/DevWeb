@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+}
+main{
+    max-width: 750px;
+    margin: auto;
+}
+h1{
+    font-size: 8rem;
+    text-align: center;
+}
+h2{
+    font-size: 4rem;
+}
+p{
+    font-size: 2rem;
+}
